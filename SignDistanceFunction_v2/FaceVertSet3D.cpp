@@ -20,8 +20,11 @@
 #ifdef WIN32
 #include <windows.h>
 #endif
+
+#if 0
 #include <GL/gl.h>
 #include <GL/glu.h>
+#endif
 
 #include "mtxlib.h"
 #include "FaceVertSet3D.h"
@@ -128,6 +131,7 @@ void FaceVertSet3D::buildBBox()
 	bbox.upper = max;
 }
 
+#if 0
 void FaceVertSet3D::render()
 {
 	glPushMatrix();
@@ -150,6 +154,7 @@ void FaceVertSet3D::render()
 // 	glEnd();
 	glPopMatrix();
 }
+#endif
 
 void FaceVertSet3D::ComputeNormal(bool force) 
 {

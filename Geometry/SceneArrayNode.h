@@ -32,7 +32,7 @@
 #define AFX_SCENEARRAYNODE_H__1F8CDAB9_2D09_475B_9E34_A6139FF29DDC__INCLUDED_
 
 #include "Geometry.h"
-#include "Matrix.h"
+#include "SDF/UsefulMath/Matrix.h"
 
 #ifdef _WIN32
 #include <windows.h>

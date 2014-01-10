@@ -117,8 +117,10 @@ public:
 		bbox = _box;
 	}
 
+#if 0
 	// from Node3D
 	virtual void render();
+#endif
 
 	/**
 	 * Compute vertex normals of the mesh
