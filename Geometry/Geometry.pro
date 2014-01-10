@@ -7,7 +7,7 @@ CONFIG  += opengl warn_off staticlib create_prl
 #TARGET  += Geometry
 
 # Input
-INCLUDEPATH += ../UsefulMath
+INCLUDEPATH += ../UsefulMath ../../
 
 SOURCES =  \
 		Geometry.cpp \

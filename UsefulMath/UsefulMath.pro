@@ -6,6 +6,8 @@ TEMPLATE = lib
 CONFIG  += warn_off staticlib create_prl
 #TARGET  += UsefulMath
 
+INCLUDEPATH += ../../
+
 # Input
 
 SOURCES =  \
